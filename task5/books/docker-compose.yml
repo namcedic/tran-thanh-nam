@@ -1,0 +1,21 @@
+version: "3.9"
+services:
+  mongodb:
+    image: mongo:6.0
+    container_name: books_db
+    restart: always
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: book_data
+    volumes:
+      - books_data:/data/db
+    networks:
+      - books_net
+
+networks:
+  books_net:
+    driver: bridge
+
+volumes:
+  books_data:  # Định nghĩa volume để lưu trữ dữ liệu MongoDB
