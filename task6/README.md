@@ -147,4 +147,4 @@ GET /ws/scoreboard
 
 ## Diagram
 
-![task6_diagram.jpeg](../../../Downloads/task6_diagram.jpeg)
+![Alt text](../../../Downloads/task6_diagram.jpeg?raw=true "Title")
