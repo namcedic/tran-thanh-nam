@@ -147,4 +147,4 @@ GET /ws/scoreboard
 
 ## Diagram
 
-![Alt text](../../../Downloads/task6_diagram.jpeg?raw=true "Title")
+![Image](https://github.com/user-attachments/assets/43393020-0017-4075-9221-50b9436e1b62)
